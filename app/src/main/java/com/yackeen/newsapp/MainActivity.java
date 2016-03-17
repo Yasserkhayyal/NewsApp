@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         spinner.setAdapter(adapter);
 
         if(savedInstanceState!=null){
+            // to maintain tab selected position after screen orientation
             Fragment fragment = getSupportFragmentManager().findFragmentByTag("list_view");
             if(fragment!=null){
                 tab = tabLayout.getTabAt(0);
