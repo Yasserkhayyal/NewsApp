@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_view_tab">ListView</string>
+    <string name="grid_view_tab">GridView</string>
+    <string-array name="headers_array">
+        <item>home</item>
+        <item>world</item>
+        <item>national</item>
+        <item>politics</item>
+        <item>nyregion</item>
+        <item>business</item>
+        <item>opinion</item>
+        <item>technology</item>
+        <item>science</item>
+    </string-array>
+</resources>
